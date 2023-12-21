@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css"> 
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- ***************NAVBAR******************* -->
+        <nav class="navbar" id="navbar">
+            <div>
+                <img src="logo (1).png" class="logo">
+            </div>
+
+            <div class="Menubar" id="Menubar">
+                <ul>
+                    <li id="menu-text"><a href="#">Home</a></li>
+                    <li id="menu-text"><a href="#">Dishes</a></li>
+                    <li id="menu-text"><a href="#">About us</a></li>
+                    <li id="menu-text"><a href="register.html">Register</a></li>
+                    <li id="menu-text"><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+            <div class="Buttons" id="Buttons" style="display: flex; width: auto; flex-wrap: wrap; justify-content: center;">
+                <span>
+                    <button id="button" class="button" onmouseenter="openSearchbar()"><i  class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                </span>
+                <span>
+                    <button id="button" class="button"><i id="wishlist" class="fa-solid fa-heart" style="color: #ffffff;"></i></button>
+                </span>
+                <span>
+                    <a href="Add_Cart.html">
+                    <button id="button" class="button"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+                    </a>
+                </span>
+                <div id="Searchbar" class="Searchbar" onmouseout="closeSearchbar()">
+                    <input class="Searchbtn" type="Search" placeholder="Search" style="width: 20vw; padding: 17px; display: block;">
+                </div>
+            </div>
+
+            <div class="Searchbar">
+                <input class="Searchbtn" type="Search" placeholder="Search">
+            </div>
+
+            <div>
+                <button id="hamburger" style="border: none; background:none;"  onclick="openHamburger()"><img class="hamburger-icon" src="menu icon.png"></button>
+                <button id="hamburger2" style="border: none; background:none; display: none;"  onclick="closeHamburger()"><i id="hamburger-icon2" class="fa-solid fa-xmark" style="color: #D44A08;" ></i></button>
+            </div>
+    </nav>
+
+    <!-- ***************FIRST BODY************ -->
+
+    <div class="container">
+        <div class="text1 container5">
+
+           <p class="inner-text one">The Fastest Food</p>
+
+           <div class="Delivery-img"  style="display: flex; align-items: center;">
+                 <p class="inner-text">Delivery in</p><div class="container3"><img class="Delivery-Boy-Img" src="Delivery Boy Img 1.png" width="100%" height="100%"></div>
+           </div>
+
+
+           <p class="inner-text" style="color: #ee7f0f;">Anywhere City</p>
+
+
+          <div class="container4">
+            <p class="paragraph1">Experience Lightning-Fast Food Delivery Today!</p>
+            <button class="Order-now">Order Now</button>
+            <button class="Seat-reserve">Reserve Your Seat</button>
+          </div>
+
+        </div>
+
+        <div class="container6">
+            <img class="img-pizza" src="Main Pizza .png" style="width: 70%; height: 100%;">
+        </div>
+    </div>
+
+
+<!-- ******************BANNER**************** -->
+
+    <div class="Header-banner">
+        <img src="Header Banner.png" height="85%" width="85%">
+    </div>
+    
+
+<!-- *********************************CATEGORY************************************ -->
+
+<div class="para2">
+    <p class="paragraph2">WHAT YOU'ARE LOOKING FOR?</p>
+</div>
+
+<div class="category-slider1">  
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+            <img class="cat-img" src="cat-img1.png">
+            <center><p class="slider-text">Dosa</p></center>
+        </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="burgerimg.png">
+        <center><p class="slider-text">Burger</p></center>
+    </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="parathaimg.png">
+        <center><p class="slider-text">Paratha</p></center>
+        </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="pastryimg.png">
+        <center><p class="slider-text">Pastry</p></center>
+        </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="pavimg.png">
+        <center><p class="slider-text">PavBhaji</p></center>
+    </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="shakeimg.png">
+        <center><p class="slider-text">Shake</p></center>
+        </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="Roll-cimg.png">
+        <center><p class="slider-text">Rolls</p></center>
+        </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="noodleimg.png">
+        <center><p class="slider-text">Noodles</p></center>
+        </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="biryaniimg1.png">
+        <center><p class="slider-text">Biryani</p></center>
+        </a>
+    </div>
+    <div class="slider1-child">
+        <a href="https://www.google.com/" style="text-decoration: none;">
+        <img class="cat-img" src="pizzaimg.png">
+        <center><p class="slider-text">Pizza</p></center>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+<!-- *************************POPULAR DISHES********************* -->
+
+
+<div class="div2-cont">
+    <div class="para2">
+        <p class="paragraph2">POPULAR DISHES</p>
+    </div>
+    
+    <div class="div2-childs">
+        <div class="div2-img">
+            <button  class="div2-like"><i id="like-btn-icon1"  class="fa-solid fa-heart fa-xl like-btn-icon" onclick="like(this.id)"></i></button>
+            <img class="div2-fd-img2" src="burgerimg.png">
+            <button class="div2-share"><i class="fa-solid fa-share-nodes fa-xl"style="color: white;"></i></button>
+        </div>
+                      
+
+        <div class="div2-desc">
+            <p class="div2-title">Veg Burger</p>
+            <div class="div2-Price-container">
+                <p class="div2-desc">Good Quality Beef and extra spicy</p>
+                <p class="div2-price">$8</p>
+            </div>
+            <center><hr class="div2-hr" width="95%" color="black" ></center>
+            <div class="div2-Buttons" >
+                <center><button class="div2-Add-to-Cart">Add to Cart</button></center>
+            </div>
+        </div>       
+    </div>    
+
+
+    <div class="div2-childs">
+        <div class="div2-img">
+            <button class="div2-like"><i id="like-btn-icon2"  class="fa-solid fa-heart fa-xl like-btn-icon"  onclick="like(this.id)"></i></button>
+            <img class="div2-fd-img2" src="burgerimg.png">
+            <button class="div2-share"><i class="fa-solid fa-share-nodes fa-xl"style="color: white;"></i></button>
+        </div>
+       
+        <div class="div2-desc">
+            <p class="div2-title">Veg Burger</p>
+            <div class="div2-Price-container">
+                <p class="div2-desc">Good Quality Beef and extra spicy</p>
+                <p class="div2-price">$8</p>
+            </div>
+            <center><hr class="div2-hr" width="95%" color="black" ></center>
+            <div class="div2-Buttons" >
+                <center><button class="div2-Add-to-Cart">Add to Cart</button></center>
+            </div>
+        </div>       
+    </div>    
+
+    <div class="div2-childs">
+        <div class="div2-img">
+            <button class="div2-like"><i id="like-btn-icon3"  class="fa-solid fa-heart fa-xl like-btn-icon"  onclick="like(this.id)"></i></button>
+            <img class="div2-fd-img2" src="burgerimg.png">
+            <button class="div2-share"><i class="fa-solid fa-share-nodes fa-xl"style="color: white;"></i></button>
+        </div>
+       
+        <div class="div2-desc">
+            <p class="div2-title">Veg Burger</p>
+            <div class="div2-Price-container">
+                <p class="div2-desc">Good Quality Beef and extra spicy</p>
+                <p class="div2-price">$8</p>
+            </div>
+            <center><hr class="div2-hr" width="95%" color="black" ></center>
+            <div class="div2-Buttons" >
+                <center><button class="div2-Add-to-Cart">Add to Cart</button></center>
+            </div>
+        </div>       
+    </div> 
+    
+
+    <div class="div2-childs">
+        <div class="div2-img">
+            <button class="div2-like"><i id="like-btn-icon4"  class="fa-solid fa-heart fa-xl like-btn-icon"  onclick="like(this.id)"></i></button>
+            <img class="div2-fd-img2" src="burgerimg.png">
+            <button class="div2-share"><i class="fa-solid fa-share-nodes fa-xl"style="color: white;"></i></button>
+        </div>
+       
+        <div class="div2-desc">
+            <p class="div2-title">Veg Burger</p>
+            <div class="div2-Price-container">
+                <p class="div2-desc">Good Quality Beef and extra spicy</p>
+                <p class="div2-price">$8</p>
+            </div>
+            <center><hr class="div2-hr" width="95%" color="black" ></center>
+            <div class="div2-Buttons" >
+                <center><button class="div2-Add-to-Cart">Add to Cart</button></center>
+            </div>
+        </div>       
+    </div>    
+
+
+
+    <div class="div2-childs">
+        <div class="div2-img">
+            <button class="div2-like"><i id="like-btn-icon5"  class="fa-solid fa-heart fa-xl like-btn-icon"  onclick="like(this.id)"></i></button>
+            <img class="div2-fd-img2" src="burgerimg.png">
+            <button class="div2-share"><i class="fa-solid fa-share-nodes fa-xl"style="color: white;"></i></button>
+        </div>
+       
+        <div class="div2-desc">
+            <p class="div2-title">Veg Burger</p>
+            <div class="div2-Price-container">
+                <p class="div2-desc">Good Quality Beef and extra spicy</p>
+                <p class="div2-price">$8</p>
+            </div>
+            <center><hr class="div2-hr" width="95%" color="black" ></center>
+            <div class="div2-Buttons" >
+                <center><button class="div2-Add-to-Cart">Add to Cart</button></center>
+            </div>
+        </div>       
+    </div>    
+
+
+
+    <div class="div2-childs">
+        <div class="div2-img">
+            <button class="div2-like"><i id="like-btn-icon6"  class="fa-solid fa-heart fa-xl like-btn-icon"  onclick="like(this.id)"></i></button>
+            <img class="div2-fd-img2" src="burgerimg.png">
+            <button class="div2-share"><i class="fa-solid fa-share-nodes fa-xl"style="color: white;"></i></button>
+        </div>
+       
+        <div class="div2-desc">
+            <p class="div2-title">Veg Burger</p>
+            <div class="div2-Price-container">
+                <p class="div2-desc">Good Quality Beef and extra spicy</p>
+                <p class="div2-price">$8</p>
+            </div>
+            <center><hr class="div2-hr" width="95%" color="black" ></center>
+            <div class="div2-Buttons" >
+                <center><button class="div2-Add-to-Cart">Add to Cart</button></center>
+            </div>
+        </div>       
+    </div>    
+
+
+
+    <div class="div2-childs">
+        <div class="div2-img">
+            <button class="div2-like"><i id="like-btn-icon7"  class="fa-solid fa-heart fa-xl like-btn-icon"  onclick="like(this.id)"></i></button>
+            <img class="div2-fd-img2" src="burgerimg.png">
+            <button class="div2-share"><i class="fa-solid fa-share-nodes fa-xl"style="color: white;"></i></button>
+        </div>
+       
+        <div class="div2-desc">
+            <p class="div2-title">Veg Burger</p>
+            <div class="div2-Price-container">
+                <p class="div2-desc">Good Quality Beef and extra spicy</p>
+                <p class="div2-price">$8</p>
+            </div>
+            <center><hr class="div2-hr" width="95%" color="black" ></center>
+            <div class="div2-Buttons" >
+                <center><button class="div2-Add-to-Cart">Add to Cart</button></center>
+            </div>
+        </div>       
+    </div>
+
+
+
+    <div class="div2-childs">
+        <div class="div2-img">
+            <button class="div2-like"><i id="like-btn-icon8"  class="fa-solid fa-heart fa-xl like-btn-icon"  onclick="like(this.id)"></i></button>
+            <img class="div2-fd-img2" src="burgerimg.png">
+            <button class="div2-share"><i class="fa-solid fa-share-nodes fa-xl"style="color: white;"></i></button>
+        </div>
+       
+        <div class="div2-desc">
+            <p class="div2-title">Veg Burger</p>
+            <div class="div2-Price-container">
+                <p class="div2-desc">Good Quality Beef and extra spicy</p>
+                <p class="div2-price">$8</p>
+            </div>
+            <center><hr class="div2-hr" width="95%" color="black" ></center>
+            <div class="div2-Buttons" >
+                <center><button class="div2-Add-to-Cart">Add to Cart</button></center>
+            </div>
+        </div>       
+    </div>
+
+    
+</div>
+
+
+<!-- ****************SCROLL CARDS SECOND**************************** -->
+
+<div class="scroll-card2">
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img2.png">
+    </div>
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img1.png">
+    </div>
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img1.png">
+    </div>
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img1.png">
+    </div>
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img1.png">
+    </div>
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img1.png">
+    </div>
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img1.png">
+    </div>
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img1.png">
+    </div>
+    <div class="scroll-card2-child">
+        <img class="scroll-card2-img" src="carousel-img1.png">
+    </div>
+</div>
+
+
+
+<!-- **********************TODAY SPECIALITY****************************** -->
+
+<div class="div1-cont">
+    <div class="para2">
+        <p class="paragraph2">TODAY’S SPECIALITY</p>
+    </div>
+    
+    <div class="div1-childs">
+            <div class="div1-img" onclick="openmodal()">
+            <img class="div1-fd-img" src="rollimg2.png">
+        </div>
+        </a>
+        <div class="div1-desc">
+            <p class="div1-title">Veg Burger</p>
+            <div class="div1-Price-container">
+                <p class="div1-desc">Good Quality Beef and extra spicy</p>
+                <p class="div1-price">$8</p>
+            </div>
+            <center><hr class="div1-hr" width="95%" color="black" ></center>
+            <div class="div1-Buttons" >
+                <button class="div1-Add-to-Cart">Add to Cart</button>
+                <button class="div1-Buy-Now">Buy Now</button>
+            </div>
+        </div>       
+    </div>
+    
+    <div class="div1-childs">
+        <div class="div1-img" onclick="openmodal()">
+            <img class="div1-fd-img" src="rollimg2.png">
+        </div>
+        </a>
+        <div class="div1-desc">
+            <p class="div1-title">Veg Burger</p>
+            <div class="div1-Price-container">
+                <p class="div1-desc">Good Quality Beef and extra spicy</p>
+                <p class="div1-price">$8</p>
+            </div>
+            <center><hr class="div1-hr" width="95%" color="black" ></center>
+            <div class="div1-Buttons" >
+                <button class="div1-Add-to-Cart">Add to Cart</button>
+                <button class="div1-Buy-Now">Buy Now</button>
+            </div>
+        </div>       
+    </div>
+
+    <div class="div1-childs">
+        <div class="div1-img" onclick="openmodal()">
+            <img class="div1-fd-img" src="rollimg2.png">
+        </div>
+        </a>
+        <div class="div1-desc">
+            <p class="div1-title">Veg Burger</p>
+            <div class="div1-Price-container">
+                <p class="div1-desc">Good Quality Beef and extra spicy</p>
+                <p class="div1-price">$8</p>
+            </div>
+            <center><hr class="div1-hr" width="95%" color="black" ></center>
+            <div class="div1-Buttons" >
+                <button class="div1-Add-to-Cart">Add to Cart</button>
+                <button class="div1-Buy-Now">Buy Now</button>
+            </div>
+        </div>       
+    </div>
+
+    <div class="div1-childs">
+        <div class="div1-img" onclick="openmodal()">
+            <img class="div1-fd-img" src="rollimg2.png">
+        </div>
+        </a>
+        <div class="div1-desc">
+            <p class="div1-title">Veg Burger</p>
+            <div class="div1-Price-container">
+                <p class="div1-desc">Good Quality Beef and extra spicy</p>
+                <p class="div1-price">$8</p>
+            </div>
+            <center><hr class="div1-hr" width="95%" color="black" ></center>
+            <div class="div1-Buttons" >
+                <button class="div1-Add-to-Cart">Add to Cart</button>
+                <button class="div1-Buy-Now">Buy Now</button>
+            </div>
+        </div>       
+    </div>
+
+    <div class="div1-childs">
+        <div class="div1-img" onclick="openmodal()">
+            <img class="div1-fd-img" src="rollimg2.png">
+        </div>
+        </a>
+        <div class="div1-desc">
+            <p class="div1-title">Veg Burger</p>
+            <div class="div1-Price-container">
+                <p class="div1-desc">Good Quality Beef and extra spicy</p>
+                <p class="div1-price">$8</p>
+            </div>
+            <center><hr class="div1-hr" width="95%" color="black" ></center>
+            <div class="div1-Buttons" >
+                <button class="div1-Add-to-Cart">Add to Cart</button>
+                <button class="div1-Buy-Now">Buy Now</button>
+            </div>
+        </div>       
+    </div>
+
+
+    <div class="div1-childs">
+            <div class="div1-img" onclick="openmodal()">
+            <img class="div1-fd-img" src="rollimg2.png">
+        </div>
+        </a>
+        <div class="div1-desc">
+            <p class="div1-title">Veg Burger</p>
+            <div class="div1-Price-container">
+                <p class="div1-desc">Good Quality Beef and extra spicy</p>
+                <p class="div1-price">$8</p>
+            </div>
+            <center><hr class="div1-hr" width="95%" color="black" ></center>
+            <div class="div1-Buttons" >
+                <button class="div1-Add-to-Cart">Add to Cart</button>
+                <button class="div1-Buy-Now">Buy Now</button>
+            </div>
+        </div>       
+    </div>
+
+
+    <div class="div1-childs">
+        <div class="div1-img" onclick="openmodal()">
+            <img class="div1-fd-img" src="rollimg2.png">
+        </div>
+        </a>
+        <div class="div1-desc">
+            <p class="div1-title">Veg Burger</p>
+            <div class="div1-Price-container">
+                <p class="div1-desc">Good Quality Beef and extra spicy</p>
+                <p class="div1-price">$8</p>
+            </div>
+            <center><hr class="div1-hr" width="95%" color="black" ></center>
+            <div class="div1-Buttons" >
+                <button class="div1-Add-to-Cart">Add to Cart</button>
+                <button class="div1-Buy-Now">Buy Now</button>
+            </div>
+        </div>       
+    </div>
+
+
+    <div class="div1-childs">
+        <div class="div1-img" onclick="openmodal()">
+            <img class="div1-fd-img" src="rollimg2.png">
+        </div>
+        <div class="div1-desc">
+            <p class="div1-title">Veg Burger</p>
+            <div class="div1-Price-container">
+                <p class="div1-desc">Good Quality Beef and extra spicy</p>
+                <p class="div1-price">$8</p>
+            </div>
+            <center><hr class="div1-hr" width="95%" color="black" ></center>
+            <div class="div1-Buttons" >
+                <button class="div1-Add-to-Cart">Add to Cart</button>
+                <button class="div1-Buy-Now">Buy Now</button>
+            </div>
+        </div>       
+    </div>
+</div>
+
+
+
+
+    <!-- ***********************************MODALS****************************************** -->
+
+
+
+
+    <div id="overlay" class="overlay">
+        <div id="modal" class="modal">
+            <div class="close-btn-div">
+                <button onclick="closemodal()" class="modal-close">X</button>
+            </div>
+
+            <div class="modal-childs">
+                <div class="modal-img" onclick="openmodal()">
+                    <img class="modal-fd-img" src="rollimg2.png">
+                </div>
+                <div class="modal-desc">
+                    <p class="modal-title">Veg Burger</p>
+                    <div class="modal-Price-container">
+                        <p class="modal-desc">Egg Roll is the easiest thing to prepare as it is ready in very less time. Cut thick slices of onion and capsicum, grate the carrots, mince the ginger and keep aside. Take a tawa or frying pan</p>
+                        <p class="modal-price">$8</p>
+                    </div>
+                    <center><img class="moral-star" src="moralstar1.png"></center>
+                    <center><hr class="modal-hr div1-hr" width="95%" color="black" ></center>
+                    <div class="modal-Buttons" >
+                        <button class="modal-Add-to-Cart">Add to Cart</button>
+                        <button class="modal-Buy-Now">Buy Now</button>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+<!-- *************************FOOTER************************** -->
+
+<div class="footer">
+     <div class="part1">
+
+    <div class="left-div">
+            <div class="footer-logo">
+                <img src="logo (1).png" alt="logo" width="100%" height="100%">
+            </div>
+
+            <div>
+                <p  class="footer-desc1">Stay in the loop and sign up for the Hot and Spicy :</p>
+            </div>
+
+            <div class="Email-div">
+                <input  class="Email-box" type="email" placeholder="Enter your email">
+                <button class="Email-button"><img src="Emailimg.png" alt="Email-button" width="100%" height="100%"></button>
+            </div>
+    </div>
+
+
+
+    <div class="right-div">
+
+        <div class="company" >
+            <p class="company-title foot-t2">Company</p>
+            <p class="foot-t3">Home</p>
+            <p class="foot-t3">About</p>
+            <p class="foot-t3">Solution</p>
+            <p class="foot-t3">Pricing</p>
+            <p class="foot-t3">Team</p>
+            <p class="foot-t3">Carrier</p>
+        </div>
+        <div class="Documantation">
+            <p class="Documantation-title foot-t2">Documantation</p>
+            <p class="foot-t3">Help-Center</p>
+            <p class="foot-t3">FAQ</p>
+            <p class="foot-t3">Contact</p>
+            <p class="foot-t3">Privacy policy</p>
+        </div>
+        <div class="social">
+            <p class="social-title foot-t2">Social Media</p>
+            <p class="foot-t3">Facebook</p>
+            <p class="foot-t3">Instagram</p>
+            <p class="foot-t3">You-Tube</p>
+            <p class="foot-t3">Twitter</p>
+            <p class="foot-t3">WhatsApp</p>
+        </div>
+    </div>
+</div>
+     <center><hr style="margin-top: 10px;" width="95%" color="black" ></center>
+     <div class="part2">
+        <p class="foot-t4"> © All Rights Reserved 2023</p>
+        <p class="foot-t4"> Terms & Conditions</p>
+     </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- **************************FOOT MENU **************** -->
+
+    <div class="Footermenu">
+        <span>
+            <button class="buttons"><a href="index.html"><img class="footer-icons" src="Home.png" alt="Home"></a></button>
+        </span>
+        <span>
+            <button class="buttons"><a href="category.html"><img class="footer-icons" src="Category.png" alt="Home"></a></button>
+        </span>
+        <span>
+            <button class="buttons"><a href="Add_Cart.html"><img class="footer-icons" src="Cart.png" alt="Home"></a></button>
+        </span>
+        <span>
+            <button class="buttons"><a href="index.html"><img class="footer-icons" src="Account.png" alt="Home"></a></button>
+        </span>
+       
+    </div>
+
+<!-- *************************************************************************************************** -->
+
+
+
+
+</body>
+</html>
+
+
+
+
