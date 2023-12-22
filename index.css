@@ -1014,7 +1014,7 @@ font-weight: bold;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 2%;
+    margin-bottom: 13vh;
 }
 
 .main-cart-product-div{
@@ -1022,7 +1022,7 @@ font-weight: bold;
     height: 30vh;
     background-color: #FFEFE9;
     border: 1px solid #D44A08;
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 5px;
 }
 
@@ -1131,7 +1131,7 @@ font-weight: bold;
     height: 12vh;
     background-color: white;
     border-top: 1px solid black;
-    position: relative;
+    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-between;
