@@ -989,6 +989,10 @@
     .main-cart-price{
         font-size: 15px;
     }
+    .cart-order-btn
+    {
+        padding:4px 8px;
+    }
 }
 
 @media only screen and (min-width: 867px)
