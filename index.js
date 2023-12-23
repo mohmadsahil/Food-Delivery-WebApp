@@ -7,11 +7,6 @@ function openmodal()
     document.getElementById("modal").style.zIndex="1";
     document.getElementById("modal").style.display="flex";
 }
-function closemodal()
-{
-    document.getElementById("overlay").style.display="none";
-    document.getElementById("modal").style.display="none";
-}
 
 
 // ****************RESPONSIVE MENUBAR*******************
