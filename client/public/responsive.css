@@ -1,0 +1,999 @@
+@media only screen and (max-width:966px ) {
+    
+    .Menubar li{
+        padding: 0px 25px;
+    }
+}
+
+@media only screen and (max-width: 866px){
+
+    .Menubar{
+        display: none;
+    }    
+    .button{
+        display: none;
+    }
+    .logo
+    {
+        width: 70px;
+        padding-top: 5px;
+    }
+    #Searchbar{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 867px)
+{
+    
+    .buttons{
+        display: none;
+    }
+   .hamburger-icon{
+    display: none;
+   }   
+   .Searchbar{
+    display: none;
+   }
+}
+
+
+
+@media only screen and (max-width: 867px)
+{
+
+    .inner-text
+    {
+        font-size: 40px;
+    }
+    .img-pizza
+    {
+        size: 500px;
+    }
+    .Header-banner
+    {
+        margin-top: 500;
+    }
+}
+
+@media only screen and (max-width: 1160px)
+{
+    .inner-text
+    {
+        font-size: 35px;
+    }
+    .container3
+    {
+        width: 70px;
+        height: 70px;
+    }
+    .one
+    {
+        padding-top: 50px;
+    }
+    .Header-banner
+    {
+        margin-top: -25%;
+    }
+}
+
+@media only screen and (max-width: 874px)
+{
+    .inner-text
+    {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .container3
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .container4
+    {
+        margin: 5px 20px;
+    }
+    .Order-now ,.Seat-reserve
+    {
+        margin-top: 20px;
+        margin-right: 5px;
+        margin-left: 0px;
+        border-radius: 50px;
+        padding: 8px;
+        font-size: 8px;
+    }
+    .paragraph1{
+          font-size: 12px
+    }
+    .one
+    {
+        padding-top: 40px;
+    } 
+
+    .container5 , .container6
+    {
+        height: 280px;
+    }
+    .container
+    {
+        height: 340px;
+    }
+    .Header-banner
+    {
+        margin-top: -25%;
+    }
+}
+
+@media only screen and (max-width: 1018px)
+{
+    .paragraph1{
+        font-size: 12px
+  }
+}
+
+@media only screen and (max-width: 660px)
+{
+    .paragraph1
+    {
+        font-size: 8px
+    }
+
+    .Order-now ,.Seat-reserve
+    {
+    margin-top:12px;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+    .container5 
+    {
+        width: 60%;
+        height: 175px;
+    }
+    .container6
+    {
+        width: 40%;
+        height: 175px;
+    }
+    .container
+    {
+        height: 240px;
+    }
+    .one
+    {
+        padding-top: 20px;
+    } 
+    .container3
+    {
+        width: 35px;
+        height: 35px;
+    }
+    .inner-text
+    {
+        padding: 5px 20px;
+    }
+    .Order-now ,.Seat-reserve
+    {
+      padding: 5px;
+      font-size: 6px;
+    }
+
+}
+
+@media only screen and (max-width: 389px){
+    .inner-text
+    {
+        font-size: 15px;
+        padding: 3px 20px;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .container5{
+        width: 100%;
+    }
+    .container6
+    {
+        display: none;
+    }
+    .hamburger-icon
+    {
+    width: 30px;
+    height: 30px;
+    }
+}
+
+
+ /* *********************POPULAR DISHES************************************* */
+
+
+
+
+ @media only screen and (max-width:1239px){
+    .div2-childs{
+        width: 260px;
+        height: 245px;
+    }
+}
+
+@media only screen and (max-width:1158px){
+    .div2-childs{
+        width: 230px;
+        height: 245px;
+    }
+}
+@media only screen and (max-width:1038px){
+    .div2-childs{
+        width: 250px;
+        height: 245px;
+    }
+}
+
+@media only screen and (max-width:838px){
+    .div2-childs{
+        width: 230px;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width:778px){
+    .div2-childs{
+        width: 190px;
+        height: 220px;
+    }
+    .div2-desc{
+        font-size: 8px;
+    }
+    .div2-title{
+        font-size: 12px;
+    }
+    .div2-price
+    {
+        font-size: 15px;
+    }
+    .div2-hr{
+        margin-top: 0px;
+    }
+}
+
+       
+@media only screen and (max-width:658px){
+    .div2-childs{
+        width: 160px;
+        height: 200px;
+        margin: 10px 8px;
+    }
+    .div2-Add-to-Cart, .div2-Buy-Now{
+        padding-top: 5px;
+        font-size: 9px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width:526px){
+    .div2-childs{
+        width: 140px;
+        height: 155px;
+        margin: 8px 6px;
+    }
+    .div2-Add-to-Cart, .div2-Buy-Now{
+        padding: 3px;
+        font-size: 7px;
+        margin-top: 4px;
+
+    }
+    .div2-desc{
+        font-size: 6px;
+    }
+    .div2-title{
+        font-size: 10px;
+    }
+    .div2-price
+    {
+        font-size: 12px;
+    }
+    .div2-hr{
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width:454px){
+    .div2-childs{
+        width: 110px;
+        height: 120px;
+        margin: 5px 3px;
+    }
+    .div2-Add-to-Cart, .div2-Buy-Now{
+        padding-top: 2px;     
+        font-size: 6px;
+        margin-top: 3px;
+
+    }
+    .div2-desc{
+        font-size: 5px;
+    }
+    .div2-title{
+        font-size: 8px;
+    }
+    .div2-Price-container{
+        padding-top: 0px;
+    }
+    .div2-price
+    {
+        font-size: 10px;
+    }
+    .div2-hr{
+        margin-top: 0px;
+    }
+    .div2-like{
+        width: 25px;
+        height: 25px;
+    }
+    .div2-share{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* *******************************SCROLL CARD 2********************** */
+
+@media only screen and (max-width:875px)
+{
+    .scroll-card2-child
+    {
+        min-width: 50vh;
+        height:30vh;
+        margin: 50px 15px;
+    }
+    .scroll-card2-child
+    {
+        box-shadow: 3px 3px 5px gray;
+    }
+}
+
+@media only screen and (max-width:400px)
+{
+    .scroll-card2-child
+    {
+        min-width: 33vh;
+        height:20vh;
+        margin: 40px 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* ********************************TODAY SPECIALITY************************************************* */
+ 
+
+@media only screen and (max-width:1239px){
+    .div1-childs{
+        width: 260px;
+        height: 245px;
+    }
+}
+
+@media only screen and (max-width:1158px){
+    .div1-childs{
+        width: 230px;
+        height: 245px;
+    }
+}
+@media only screen and (max-width:1038px){
+    .div1-childs{
+        width: 250px;
+        height: 245px;
+    }
+}
+
+@media only screen and (max-width:838px){
+    .div1-childs{
+        width: 230px;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width:778px){
+    .div1-childs{
+        width: 190px;
+        height: 220px;
+    }
+    .div1-desc{
+        font-size: 8px;
+    }
+    .div1-title{
+        font-size: 12px;
+    }
+    .div1-price
+    {
+        font-size: 15px;
+    }
+    .div1-hr{
+        margin-top: 0px;
+    }
+}
+ 
+@media only screen and (max-width:658px){
+    .div1-childs{
+        width: 160px;
+        height: 200px;
+        margin: 10px 8px;
+    }
+    .div1-Add-to-Cart, .div1-Buy-Now{
+        padding-top: 5px;
+        font-size: 9px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width:526px){
+    .div1-childs{
+        width: 140px;
+        height: 155px;
+        margin: 8px 6px;
+    }
+    .div1-Add-to-Cart, .div1-Buy-Now{
+        padding: 3px;
+        font-size: 7px;
+        margin-top: 4px;
+
+    }
+    .div1-desc{
+        font-size: 6px;
+    }
+    .div1-title{
+        font-size: 10px;
+    }
+    .div1-price
+    {
+        font-size: 12px;
+    }
+    .div1-hr{
+        margin-top: 0px;
+    }
+    .para2
+    {
+        font-size: 20px;
+        text-shadow: 1px 1px gray;
+    }
+}
+
+@media only screen and (max-width:454px){
+    .div1-childs{
+        width: 110px;
+        height: 120px;
+        margin: 5px 3px;
+    }
+    .div1-Add-to-Cart, .div1-Buy-Now{
+        padding-top: 2px;     
+        font-size: 6px;
+        margin-top: 3px;
+
+    }
+    .div1-desc{
+        font-size: 5px;
+    }
+    .div1-title{
+        font-size: 8px;
+    }
+    .div1-Price-container{
+        padding-top: 0px;
+    }
+    .div1-price
+    {
+        font-size: 10px;
+    }
+    .div1-hr{
+        margin-top: 0px;
+    }
+}
+    
+
+/* *********************************FOOTER***************************** */
+
+@media only screen and (max-width:1300px)
+{
+    .foot-t2
+    {
+        font-size: 18px;
+    }
+
+    .foot-t3
+    {
+        font-size: 13px;
+    }
+    .footer-desc1
+    {
+        font-size: 25px;
+    }
+    .foot-t4
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:970px)
+{
+
+    .part1
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-div
+    {
+    width: 100%;
+    }
+    .right-div
+    {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:866px)
+{
+    .footer
+    {
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width:480px)
+{
+
+    .foot-t2
+    {
+        font-size: 13px;
+    }
+
+    .foot-t3
+    {
+        font-size: 10px;
+    }
+    .footer-desc1
+    {
+        font-size: 20px;
+    }
+    .foot-t4
+    {
+        font-size: 12px;
+    }
+
+    .footer-logo
+    {
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+
+    .footer-desc1
+    {
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+
+    .Email-div
+    {
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+    .Email-box
+    {
+        padding:10px;
+        font-size: 13px;
+    }
+    .Email-button{
+        width: 28px;
+        height: 28px;
+        border-radius: 40%;
+    }
+}
+
+
+@media only screen and (max-width:360px)
+{
+
+    .foot-t2
+    {
+        font-size: 10px;
+    }
+
+    .foot-t3
+    {
+        font-size: 7px;
+    }
+    .footer-desc1
+    {
+        font-size: 15px;
+    }
+    .foot-t4
+    {
+        font-size: 8px;
+    }
+}
+
+
+/* ***************************MOBILE MENU*********************** */
+
+
+@media only screen and (max-width:866px)
+{
+    .Searchbar:hover+.hamburger-icon
+    {
+      background-color:  aqua;
+    }
+}
+
+
+
+
+
+/* ***************************CATOGERY SLIDER*********************** */
+
+
+
+@media only screen and (max-width:525px)
+{
+    .slider1-child
+    {
+      margin:15px;
+    }
+
+    .cat-img
+    {
+      min-width:7vw;
+      height: 14vh;
+    }
+}
+
+@media only screen and (max-width:1075px)
+{
+    .slider1-child
+    {
+        margin:20px;
+    }
+    .cat-img
+    {
+        min-width:10vw;
+        height: 18vh;
+    }
+}
+
+
+@media only screen and (max-width:445px)
+{
+    
+    .slider1-child
+    {
+        
+        margin: 20px;
+    }
+    .cat-img
+    {
+        min-width:4vw;
+        height: 8vh;
+    }
+}
+
+
+/* *******************************LOGIN******************************** */
+
+@media only screen and (max-width:600px)
+{
+    .login-body
+    {
+        flex-direction: column;
+    }
+    .left-login
+    {
+        width: 100%;
+        height: 40vh;
+        box-shadow:none;
+        border-radius: 0px 0px 50px 50px;
+        margin: 0;
+    }
+    .right-login
+    {
+        width: 100%;
+        height: 50vh;
+        box-shadow:none;
+        border-radius: 0px 50px 0px 0px;
+        margin: 0;
+        background-color: white;
+    }
+    .left-register{
+        height:40vh;
+    }
+    .register-text1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:750px)
+{
+    .register-text1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+
+
+/* *******************MODAL******************* */
+
+@media only screen and (max-width: 590px)
+
+{
+    .modal-childs{
+        width: 300px;
+        height: 275px;
+        background-color: #ffefe9;
+        margin: 8px 12px;
+        border-radius: 10px;
+    }
+    .modal-title{
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .modal-desc
+    {
+    font-size: 10px;
+    width: 100%;
+    }
+    .modal-Add-to-Cart{
+        margin-left: 25px;
+        margin-top: 3px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    .modal-Buy-Now{
+        margin-right: 25px;
+        margin-top: 3px;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .modal-img
+    {
+        height: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 350px)
+{
+    .modal-childs{
+        width: 250px;
+        height: 255px;
+        background-color: #ffefe9;
+        margin: 8px 12px;
+        border-radius: 10px;
+    }
+    .modal-title{
+        font-size: 10px;
+        padding-left: 4px;
+    }
+    .modal-desc
+    {
+    font-size: 8px;
+    width: 100%;
+    }
+    .modal-Add-to-Cart{
+        margin-left: 20px;
+        margin-top: 3px;
+        padding: 6px;
+        font-size: 10px;
+    }
+    .modal-Buy-Now{
+        margin-right: 20px;
+        margin-top: 3px;
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .modal-img
+    {
+        height: 40%;
+    }
+    .moral-star
+    {
+    height: 20px;
+    width: 100px;
+    }
+}
+
+/* *************************CATEGORY PAGE********************** */
+
+@media only screen and (max-width: 882px)
+{
+    .bottom-right-main-category-child
+    {
+        width: 180px;
+        height: 160px;
+    }
+    .main-category-Add-to-Cart{
+        border-radius: 50px;
+        margin-bottom: 0;
+        padding: 6px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 778px)
+{
+    .bottom-right-main-category-child
+    {
+        width: 150px;
+        height: 135px;
+    }
+}
+
+@media only screen and (max-width: 634px)
+{
+    .bottom-right-main-category-child
+    {
+        width: 120px;
+        height: 120px;
+        margin: 10px 8px;
+    }
+    .main-category-Add-to-Cart{
+        border-radius: 50px;
+        padding: 4px;
+        font-size: 6px;
+    }
+    .left-main-category-child-img{
+        height: 50%;
+    }
+    .left-main-category-child-txt{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .bottom-right-main-category-child
+    {
+        width: 130px;
+        height: 120px;
+        margin: 10px 8px;
+    }
+    .main-category-Add-to-Cart{
+        border-radius: 50px;
+        padding: 4px;
+        font-size: 6px;
+    }
+    .main-category-Add-to-Cart{
+        border-radius: 50px;
+        margin-bottom: 0;
+        padding: 6px;
+        font-size: 8px;
+    }
+    .left-main-category-child-img{
+        width: 70%;
+        height: 30%;
+    }
+    .left-main-category
+    {
+       
+        box-shadow: 2px 2px 8px black;
+    }
+}
+@media only screen and (max-width: 342px)
+{
+    .bottom-right-main-category-child
+    {
+        width: 100px;
+        height: 100px;
+        margin: 10px 8px;
+    }
+    .main-category-Add-to-Cart{
+        border-radius: 50px;
+        padding: 4px;
+        font-size: 6px;
+    }
+    .left-main-category-child-img{
+        height: 40%;
+    }
+    .left-main-category
+    {
+       
+        box-shadow: 2px 2px 8px black;
+    }
+    .top-right-main-category-img
+    {
+        min-width: 180px;
+        height: 80%;
+        margin:2px 30px;
+        border-radius: 30px;
+        box-shadow: 3px 3px 7px gray;
+    }
+    .left-main-category-child{
+        height: 15%;
+    }
+    .left-main-category-child-txt{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 774px)
+{
+    .left-main-category-child-img{
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 866px)
+{
+    .main-category
+    {
+     margin-bottom: 40px;   
+    }
+}
+
+
+/* *****************ADD TO CART************************ */
+
+@media only screen and (max-width: 1050px)
+{
+    .main-cart-product-div
+    {
+        height: 20vh;
+    }
+    .main-cart-bottom-left
+    {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 750px)
+{
+    .main-cart-bottom-left
+    {
+    width: 25%;
+    }
+}
+
+@media only screen and (max-width: 560px)
+{
+    .main-cart-bottom-left
+    {
+    width: 35%;
+    }
+    
+    .main-cart-right-top-desc{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 400px)
+{
+    .main-cart-bottom-left
+    {
+        width: 50%;
+    }
+
+}
+@media only screen and (max-width: 300px)
+{
+    .main-cart-right-top-title{
+        font-size: 15px;
+    }
+    .main-cart-price{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 867px)
+{
+    .main-cart-total-price{
+        align-items: center;
+    }
+}
